@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <h1>Book Details</h1>
+
+    <!-- Display Book Information -->
+    <div class="book-details">
+        <h2>Title: {{ .Title }}</h2>
+        <p>Author: {{ .Author }}</p>
+        <p>Quantity: {{ .Quantity }}</p>
+    </div>
+
+    <!-- Link to go back to the book list -->
+    <p><a href="/">Back to Book List</a></p>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
